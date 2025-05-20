@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb~
+
+# Environment
+.env
+venv/
+.envrc
+
+# OS junk
+.DS_Store
+EOF
