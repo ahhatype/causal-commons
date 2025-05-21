@@ -1,0 +1,16 @@
+
+---
+title: "DAGitty DAG for Study 2"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+library(dagitty)
+library(ggdag)
+```
+
+```{r load-and-plot-dag}
+dag_text <- readLines("dagitty_study_2.txt")
+dag <- dagitty(paste(dag_text, collapse = "\n"))
+ggdag(dag) + theme_dag()
+```
