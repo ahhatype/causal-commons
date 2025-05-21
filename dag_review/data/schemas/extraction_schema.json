@@ -1,0 +1,31 @@
+{
+  "type": "object",
+  "properties": {
+    "objectives": { "type": "array", "items": { "type": "string" } },
+    "eligibility": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "criteria": { "type": "string" },
+          "inclusion": { "type": "boolean" }
+        },
+        "required": ["criteria", "inclusion"]
+      }
+    },
+    "outcomes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "type": { "type": "string" },
+          "value": { "type": "string" }
+        },
+        "required": ["type", "value"]
+      }
+    },
+    "exposures": { "type": "array", "items": { "type": "string" } }
+  },
+  "required": ["objectives", "eligibility", "outcomes"]
+
+}

@@ -1,0 +1,3 @@
+Here is the abstract text. Please extract all fields defined in the schema if they are present:
+
+{{abstract}}
