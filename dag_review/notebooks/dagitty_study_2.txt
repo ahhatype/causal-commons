@@ -1,5 +1,0 @@
-dag {
-"Echocardiographic parameters such as left ventricular ejection fraction, left ventricular mass index (LVMI), left ventricular hypertrophy, left atrial enlargement and diastolic function"
-"Patients with type 2 diabetes mellitus (T2DM) with no history of cardiovascular disease (CVD)"
-"Patients with type 2 diabetes mellitus (T2DM) with no history of cardiovascular disease (CVD)" -> "Echocardiographic parameters such as left ventricular ejection fraction, left ventricular mass index (LVMI), left ventricular hypertrophy, left atrial enlargement and diastolic function"
-}
